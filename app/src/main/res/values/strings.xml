@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Poj_Laib_1</string>
+    <string name="login">Login</string>
+    <string name="username"></string>
+    <string name="password"></string>
+    <string name="btn_login">Login</string>
+    <string name="create_acount">Create acount</string>
+    <string name="register">Register</string>
+    <string name="rusername"></string>
+    <string name="rvillage"></string>
+    <string name="btn_register">REGISTER</string>
+    <string name="create_login">Login</string>
+    <string name="rnroog"></string>
+    <string name="rxeev"></string>
+    <string name="rtuszauv"></string>
+</resources>

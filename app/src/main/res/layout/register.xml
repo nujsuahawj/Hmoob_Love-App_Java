@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".register">
+
+    <TextView
+        android:id="@+id/txtregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:drawableTop="@drawable/ic_register"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:text="@string/register"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/rusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:drawableRight="@drawable/ic_user"
+        android:fontFamily="@font/poppinsmedium"
+        android:hint="name_lastname"
+        android:inputType="text"
+        android:text="@string/rusername"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.194"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/rvillage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:drawableRight="@drawable/ic_zos"
+        android:fontFamily="@font/poppinsmedium"
+        android:hint="vilage"
+        android:inputType="text"
+        android:text="@string/rvillage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.305"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/rnroog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:drawableRight="@drawable/ic_nroog"
+        android:fontFamily="@font/poppinsmedium"
+        android:hint="nroog"
+        android:inputType="text"
+        android:text="@string/rnroog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/rxeev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:drawableRight="@drawable/ic_xeev"
+        android:fontFamily="@font/poppinsmedium"
+        android:hint="xeev"
+        android:inputType="text"
+        android:text="@string/rxeev"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.519"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/rtuszauv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:drawableRight="@drawable/ic_pass"
+        android:fontFamily="@font/poppinsmedium"
+        android:hint="tuszauv"
+        android:inputType="text"
+        android:text="@string/rtuszauv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.629"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnregister"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.748"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtcreatelogin"
+        android:layout_width="52dp"
+        android:layout_height="23dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:onClick="login_nuj"
+        android:text="@string/create_login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnregister"
+        app:layout_constraintStart_toStartOf="@+id/btnregister"
+        app:layout_constraintTop_toBottomOf="@+id/btnregister"
+        app:layout_constraintVertical_bias="0.307"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
